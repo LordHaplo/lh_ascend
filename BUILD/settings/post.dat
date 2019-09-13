@@ -1,0 +1,8 @@
+lh_getBeehive	boolean	Go for the beehive?
+lh_getStarKey	boolean	Get Richard's Star Key?
+lh_holeinthesky	boolean	Do we need to open the Hole in the Sky?
+lh_hippyInstead	boolean	Fight on the side of the hippies instead of the Frat Warriors?
+lh_ignoreFlyer	boolean	Do not do the flyer quest, recommended to set true if fighting for the hippies.
+lh_haveoven	boolean	If you have an oven, this should be true. But we can't always check the campground.
+lh_wandOfNagamar	boolean	Do we need to get a Wand of Nagamar?
+lh_paranoia	integer	How often should we refresh quests? -1 is never, lower positive numbers = more often.

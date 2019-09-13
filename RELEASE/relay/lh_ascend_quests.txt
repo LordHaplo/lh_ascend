@@ -1,0 +1,110 @@
+1	lh_abooclover	boolean	ANY	Are we considering using a clover at A-Boo Peak?
+2	lh_aboocount	integer	ANY	(5 - Number of turns) left at A-Boo Peak before we consider using our Clues.
+3	lh_aboopending	integer	ANY	The last turn of a pending A-Boo Clue. 0 if no clue active.
+4	lh_aftercore	boolean	ANY	Do we think we are in aftercore?
+5	lh_airship	string	ANY	'finished' if we have access to the Castle in the Clouds (S.O.C.K. equivalence)
+6	lh_ballroom	string	ANY	-
+7	lh_ballroomflat	string	ANY	-
+8	lh_ballroomopen	string	ANY -
+9	lh_ballroomsong	string	ANY	-
+10	lh_bat	string	ANY 'finished' if we have completed the Bat Quest.
+11	lh_bean	boolean	ANY	Have we planted a beanstalk bean?
+12	lh_blackfam	boolean	ANY	True when we have not yet initialized The Black Forest. False once it has been set up.
+13	lh_blackmap	string	ANY	-
+14	lh_boopeak	string	ANY	'finished' is A-Boo Peak is completed.
+15	lh_castlebasement	string	ANY	'finished' if we have finished the Castle in the Clouds Basement.
+16	lh_castleground	string	ANY	'finished' if we have finished the Castle in the Clouds Ground Floor.
+17	lh_castletop	string	ANY	'finished' if we have finished the Castle in the Clouds Top Floor.
+18	lh_chasmBusted	boolean	ANY	Has the orc chasm bridge been 'trolled yet? Ed only.
+19	lh_clanstuff	string	ANY	What was the last day we did 'end of day' clan stuff.
+20	lh_cookie	integer	ANY	HCCS Only: Tracks fortune cookie.
+21	lh_crackpotjar	string	ANY	Status of Crackpot Mystic Jar of Psychoses
+22	lh_crypt	string	ANY	'finished' if the Bonerdagon (or equivalent) has been defeated.
+23	lh_cubeItems	boolean	ANY	Do we need to use the Gelatinous Cube for Phat Loot Tokens?
+24	lh_day1_cobb	string	ANY	'finished' if we have found the Knob Goblin Encryption Key.
+25	lh_day1_dna	string	ANY	'finished' if we have hybridized ourselves at the start of Ascension.
+29	lh_day_init	string	ANY	Current daycount if we finished initializing today.
+30	lh_disableAdventureHandling	string	ANY	When set this prevents post/preadventure behavior. This is necessary for multi-adventure situations and 'a choice follows this' situations.
+31	lh_familiarChoice	string	ANY	The current familiar we are planning to take. This changes a lot.
+32	lh_fcle	string	ANY	'finished' if we got the Pirate Fledges, or equivalent.
+33	lh_friars	string	ANY	'finished' if we completed the Friars Quest. Only 'done' if we don't/didn't have enough hot wings.
+34	lh_getBoningKnife	boolean	ANY	-
+35	lh_gnasirUnlocked	boolean	ANY	Have we found gnasir in the Desert?
+36	lh_goblinking	string	ANY	-
+37	lh_gremlins	string	ANY	-
+38	lh_grimstoneFancyOilPainting	boolean	ANY	-
+39	lh_grimstoneOrnateDowsingRod	boolean	ANY	-
+40	lh_gunpowder	string	ANY	Did we initiate the Sonofa Beach quest?
+41	lh_hedge	string	ANY	'fast' or 'slow', determining how quickly we want to finish the Hedge Maze.
+42	lh_hiddenapartment	string	ANY	-
+43	lh_hiddenbowling	string	ANY	-
+44	lh_hiddencity	string	ANY	-
+45	lh_hiddenhospital	string	ANY	-
+46	lh_hiddenoffice	string	ANY	-
+47	lh_hiddenunlock	string	ANY	-
+48	lh_hiddenzones	string	ANY	-
+49	lh_highlandlord	string	ANY	-
+50	lh_mcmuffin	string	ANY	-
+51	lh_mistypeak	string	ANY	-
+52	lh_mosquito	string	ANY	'finished' if we have completed the Mosquito Larva quest.
+53	lh_nuns	string	ANY	-
+54	lh_nunsTrick	string	ANY	Deprecated
+55	lh_nunsTrickActive	string	ANY	Deprecated
+56	lh_nunsTrickGland	string	ANY	Deprecated
+57	lh_nunsTrickCount	string	ANY	Deprecated
+58	lh_nunsTrickReady	string	ANY	Deprecated
+59	lh_oilpeak	string	ANY	'finished' if The Oil Peak is completed.
+60	lh_orchard	string	ANY	-
+61	lh_palindome	string	ANY	'finished' if the Palindome is finished.
+62	lh_phatloot	integer	ANY	Last day that we completed our Phat Loot Token handling.
+63	lh_prewar	string	ANY	-
+64	lh_prehippy	string	ANY	-
+65	lh_pirateoutfit	string	ANY	Pirate Sidequest Tracker: '', 'insults', 'blueprint', 'almost', 'finished'
+66	lh_powerLevelLastLevel	string	ANY	Last Level that we had nothing to do.
+67	lh_powerLevelAdvCount	string	ANY	Adventures count of times we had nothing to do.
+68	lh_powerLevelLastAttempted	string	ANY	Last adventure that we did nothing on.
+69	lh_skipDesert	string	ANY	Tracks last time we skipped the Desert.
+70	lh_spookyfertilizer	string	ANY	'finished' if we've dealt with the Spooky-Gro Fertilizer
+71	lh_spookyravensecond	string	ANY	-
+72	lh_spookysapling	string	ANY	'finished' if we've dealt with the Spooky Sapling
+73	lh_sonofa	string	ANY	'finished' if we've finished or skipped The Lighthouse side quest.
+73	lh_sorceress	string	ANY	Sorceress Tower tracker: '', 'start', 'hedge', 'door', 'tower', 'top', 'final', 'finished'
+75	lh_swordfish	string	ANY	'finished' if we've finished the Poop Deck. Heh, poop.
+76	lh_tavern	string	ANY	'finished' if we've completed the Tavern Quest
+77	lh_trytower	string	ANY	Deprecated, should be removed any day now...
+78	lh_trapper	string	ANY	Trapper Quest Tracker: '', 'start', 'yeti', 'finished'
+79	lh_treecoin	string	ANY	'finished' if we've dealt with the Tree-Holed Coin
+80	lh_twinpeak	string	ANY	'finished' if Twin Peak is completed. (Not really).
+81	lh_twinpeakprogress	string	ANY	-
+82	lh_waitingArrowAlcove	integer	ANY	If we arrowed a modern zmobie, this tells us when to return to the Alcove (cyrptAlcoveEvilness value).
+83	lh_war	string	ANY	'finished' is the war is done. 'done' if the battleground is empty but we still need to turn in items and fight the boss.
+84	lh_winebomb	string	ANY	'partial' if we have a fulminate, 'finished' if we've made it into a wine bomb
+85	lh_100familiar	string	PRE	If a familiar type, do not allow familiar switching (for 100% runs). Otherwise, can be none or blank.
+86	lh_borisSkills	integer	ANY	?? Number of Boris skills?
+87	lh_awolLastSkill	integer	PRE	Last level we handled AWOL skills
+88	lh_beatenUpCount	integer	PRE	?? Something to do with ML disabling?
+89	lh_bedroomHandler1	string	PRE	Part of Multi-adventure Bedroom handling
+90	lh_bedroomHandler2	string	PRE	Part of Multi-adventure Bedroom handling
+91	lh_dinseyGarbageMoney	string	PRE	Tracks when we last depositing a Bag of Park Garbage (can we remove this?)
+92	lh_doneInitialize	integer	PRE	Indicates last ascension that we initialized with the script.
+93	lh_lastABooConsider	integer	PRE	Last adventure that we considered A-Boo Peak.
+94	lh_lastABooCycleFix	integer	PRE	Duration of current A-Boo Peak cycle.
+95	lh_noSnakeOil	integer	PRE	Last day that we could no longer Extract Oil.
+96	lh_renenutetBought	integer	PRE	Number of Talisman of Renenutet's bought on last tracking.
+97	lh_batoomerangDay	integer	PRE	Part of Replica Bat-oomerang Tracker
+98	lh_batoomerangUse	integer	PRE	Part of Replica Bat-oomerang Tracker
+99	lh_longConMonster	string	PRE	Last Monster hit by Long Con
+100	lh_noSleepingDog	boolean	PRE	When true, do not eat a Sleeping Dog.
+100	lh_saveMargarita	boolean	PRE	Save Emergency Margarita in HCCS run.
+101	lh_masonryWall	boolean	ANY	If true, we've destroyed the Masonry Wall in Spookyraven Manor
+102	lh_csDoWheel	boolean	PRE	In HCCS: Use Wheel of Fortune instead of Myst Stats Deck Cheat
+103	_lh_lastABooConsider	integer	POST	Last turn that we considered doing A-Boo Peak
+104	_lh_lastABooCycleFix	integer	POST	Tracker to prevent us infinitely looping on A-Boo Peak
+105	_lh_witchessBattles	integer	POST	Tracker for Witchess Combats (yes, this is actually needed).
+106	lh_combatDirective	string	ANY	State of overloading of combat behaviors.
+107	lh_copperhead	integer	ANY	Tracks the first 3 choice options when being a waiter at Copperhead (1|2|4)
+108	lh_needLegs	boolean	PRE	In Ed, do we require getting legs before trying to Ka farm?
+109	lh_getSteelOrgan	boolean	ANY	Are we trying to get a Steel Organ this ascension?
+110	lh_hccsTurnSave	boolean	ANY	In HCCS: Should we ignore pixel farming?
+111	lh_maxCandyPrice	integer	ANY	Max allowable price per candy for Rethinking Candy (default 2500)
+112	lh_hccsNoConcludeDay	boolean	ANY	In HCCS: When true, reduce how many daily end-of-day things we do.
